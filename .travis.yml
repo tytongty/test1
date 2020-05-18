@@ -1,7 +1,9 @@
-language: bash
 script: true
 dist: trusty
 branches: 
       only: 
       - master
+before_install:
+   - sudo chmod 755 ./shell1
+   - sudo ./shell1
       
