@@ -1,2 +1,7 @@
-language: linux
+language: bash
 script: true
+dist: trusty
+branches: 
+      only: 
+      - master
+      
